@@ -12,6 +12,15 @@ package week3startercode;
 public class Student {
     private String FirstName;
     private int ID;
+    private boolean Parttime;
+
+    public void setParttime(boolean Parttime) {
+        this.Parttime = Parttime;
+    }
+
+    public boolean isParttime() {
+        return Parttime;
+    }
 
     /**
      * @return the FirstName
